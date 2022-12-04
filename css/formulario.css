@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    background: url(../images/salud-y-nutricion1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formulario{
+    background: #fff;
+    margin-top: 50px;
+    padding: 3px;
+    width: 80%;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="file"], input[type="date"], input[type="datetime-local"]{
+    font-size: 20px;
+    width: 94%;
+    padding: 10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+textarea{
+    font-size: 20px;
+    width: 94%;
+    padding: 10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+select{
+    font-size: 20px;
+    width: 94%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor{
+    margin-bottom: 15px;
+    width: 95%;
+    border: 1px solid #aaa;
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button{
+    border: none;
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    background: #f88502;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button:hover{
+    background: rgb(255, 214, 102);
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    background: cadetblue;
+}
+
+
+@media screen and (max-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}

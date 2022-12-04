@@ -1,0 +1,1 @@
+Archivos de tipo html
