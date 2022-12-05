@@ -1,1 +1,0 @@
-En esta carpeta se almacenan los pdf de las dietas
